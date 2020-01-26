@@ -1,42 +1,17 @@
-body{
+html{
+    min-height: 100%;
     
-    font-family: calibri, sans-serif;
 }
 
-#p1{
-    margin: 0px;
-    text-align: center;
-    font-weight: bold;
-    font-size: x-large;
+body {
+    min-height: 100%;
+    font-family: calibri, sans-serif;   
 }
-#p2{
-    margin: 0px;
-    text-align: center;
-    font-weight: normal;
-}
-#p3{
-    margin: 0px;
-    text-align: center;
-    font-style: oblique;
-}
-#mail{
-    display: flex;
-    justify-content: center;
-}
-#locale{
-    display: flex;
-    justify-content: center;
-}
-#links{
-    display: flex;
-    justify-content: center;
-}
+
 
 h2{
     color: blue;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+
     
 }
 h3{
@@ -63,19 +38,14 @@ h5{
 li{
     margin-left: 0px;
 }
-#pic{
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+p{
+    padding:0;
+    margin:0;
 }
+
 
 #logo{
     width:26px;
     height: 26px;
 
-}
-p{
-    text-align: center;
 }

@@ -31,6 +31,7 @@ app.get('/work',  (req, res) => {
        res.render('work')
 })
 
+
 app.listen(3000,(err) =>{
     if(err){
         console.log('It was not possible to start the CV server')
